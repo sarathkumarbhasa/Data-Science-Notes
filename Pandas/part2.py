@@ -7,7 +7,6 @@ Example:
 
 import pandas as pd
 
-# Creating a Series
 s = pd.Series([10, 20, 30, 40], name="Marks")
 
 print(s)
@@ -58,10 +57,7 @@ Selects data by label (name) of row/column.
 
 Example:
 
-# Select row with label 1
 print(df.loc[1])
-
-# Select specific cell (row 1, column "City")
 print(df.loc[1, "City"])
 
 
@@ -84,10 +80,7 @@ Selects data by position (index number).
 
 Example:
 
-# Select first row
 print(df.iloc[0])
-
-# Select value in 2nd row, 3rd column
 print(df.iloc[1, 2])
 
 
@@ -110,11 +103,10 @@ Removes rows or columns.
 
 Example:
 
-# Drop the "Age" column
+
 df1 = df.drop("Age", axis=1)
 print(df1)
 
-# Drop row with index 1
 df2 = df.drop(1)
 print(df2)
 
@@ -224,8 +216,6 @@ What it does:
 Applies a function to each row or column.
 
 Example:
-
-# Add 10 to each Age
 df["Age_plus_10"] = df["Age"].apply(lambda x: x + 10)
 print(df)
 
