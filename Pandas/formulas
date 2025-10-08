@@ -1,16 +1,18 @@
-pd.Series()
-pd.DataFrame()
-df.loc[]
-df.iloc[]
-df.drop()
-df.rename()
-df.dropna()
-df.fillna()
-df.drop_duplicates()
-df.apply()
-pd.merge()
-pd.read_csv()
-pd.read_excel()
-pd.read_json()
-pd.to_datetime()
-df.astype()
+| Function               | Purpose                          |
+| ---------------------- | -------------------------------- |
+| `pd.Series()`          | Create a single column (1D data) |
+| `pd.DataFrame()`       | Create a table (2D data)         |
+| `df.loc[]`             | Select by label                  |
+| `df.iloc[]`            | Select by index number           |
+| `df.drop()`            | Remove rows/columns              |
+| `df.rename()`          | Rename columns or rows           |
+| `df.dropna()`          | Remove missing values            |
+| `df.fillna()`          | Fill missing values              |
+| `df.drop_duplicates()` | Remove duplicate rows            |
+| `df.apply()`           | Apply function to data           |
+| `pd.merge()`           | Combine DataFrames               |
+| `pd.read_csv()`        | Read data from CSV file          |
+| `pd.read_excel()`      | Read data from Excel file        |
+| `pd.read_json()`       | Read data from JSON format       |
+| `pd.to_datetime()`     | Convert to date/time type        |
+| `df.astype()`          | Change data type                 |
