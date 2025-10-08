@@ -1,0 +1,16 @@
+pd.Series()
+pd.DataFrame()
+df.loc[]
+df.iloc[]
+df.drop()
+df.rename()
+df.dropna()
+df.fillna()
+df.drop_duplicates()
+df.apply()
+pd.merge()
+pd.read_csv()
+pd.read_excel()
+pd.read_json()
+pd.to_datetime()
+df.astype()
